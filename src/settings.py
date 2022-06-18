@@ -46,6 +46,7 @@ LOCAL_APPS = [
 
 
 THIRD_APPS = [
+    'django_cleanup.apps.CleanupConfig',
     'django_rest_passwordreset',
     'rest_framework',
     'rest_framework.authtoken',
